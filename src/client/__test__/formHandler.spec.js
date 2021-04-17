@@ -1,5 +1,5 @@
-const handleSubmit = require("./handleSubmit");
+import { handleSubmit } from "./handleSubmit";
 
-test('submit the URL', () => {
-    expect(handleSubmit('').toBe())
+test('Call API', () => {
+    expect(handleSubmit().toBeDefined())
 })
