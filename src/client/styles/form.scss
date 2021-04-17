@@ -1,0 +1,30 @@
+form,
+.info {
+    // border: 1px solid #545454;
+    border-radius: 3px;
+    // padding: 40px;
+    font-size: 20px;
+    line-height: 40px;
+
+}
+
+input,
+.input {
+    padding: 15px 20px;
+    width: 100%;
+    margin: 10px 0;
+    font-size: 20px;
+    line-height: 25px;
+
+}
+
+button {
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #D03C00;
+    padding: 10px 50px;
+    text-transform: capitalize;
+    color: #fff;
+
+}

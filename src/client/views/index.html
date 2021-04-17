@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Test</title>
+        <!-- <link rel="stylesheet" href="/styles/resets.css">
+        <link rel="stylesheet" href="/styles/base.css">
+        <link rel="stylesheet" href="/styles/header.css">
+        <link rel="stylesheet" href="/styles/form.css">
+        <link rel="stylesheet" href="/styles/footer.css"> -->
+    </head>
+
+    <body>
+
+        <header>
+            <div class="logo">
+                NEWS NLP
+            </div>
+   
+        </header>
+
+        <main>
+            <section>
+                <form class="" onsubmit="return Client.handleSubmit(event)">
+                    <label for="name">
+                        Please enter valid URL!
+                    </label>
+                    <!-- <textarea name="" id="" cols="30"></textarea> -->
+                    <!-- <textarea class="input" id="name" required rows="10" placeholder="Please enter valid URL!" ></textarea> -->
+                    <input id="name" type="text" name="input" value="" onblur="" placeholder="e.g. https://cnn.com/vaccine-inequality-blood">
+                    <button type="submit" onclick="return Client.handleSubmit(event)" onsubmit="return Client.handleSubmit(event)">
+                        submit
+                    </button>
+                    <!-- <input type="submit" name="" value="submit" onclick="return Client.handleSubmit(event)" onsubmit="return Client.handleSubmit(event)"> -->
+                </form>
+            </section>
+
+            <section class="info">
+                <strong>Results:</strong>
+                <div id="results"></div>
+            </section>
+        </main>
+
+        <footer>
+            <p>Evaluate a news article with Natural Language Processing</p>
+            <p>Udacity Project</p>
+        </footer>
+
+    </body>
+</html>
