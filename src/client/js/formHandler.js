@@ -1,6 +1,9 @@
 import { validURL } from "./validURL";
 
 function handleSubmit(event) {
+    if(!event){
+        return;
+    }
     event.preventDefault()
     let formText = document.getElementById('name').value;
     if (!validURL(formText)) {
@@ -35,6 +38,6 @@ function handleSubmit(event) {
 
 
     }
-
+    return false;
 }
 export { handleSubmit }

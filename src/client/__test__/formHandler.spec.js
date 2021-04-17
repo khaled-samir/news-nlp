@@ -1,5 +1,4 @@
-import { handleSubmit } from "./handleSubmit";
-
+import { handleSubmit } from '../js/formHandler'
 test('Call API', () => {
-    expect(handleSubmit().toBeDefined())
+    expect(handleSubmit()).toBeFalsy()
 })

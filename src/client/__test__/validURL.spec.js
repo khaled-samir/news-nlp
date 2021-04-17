@@ -1,4 +1,4 @@
-import { validURL } from "./validURL";
+import { validURL } from "../js/validURL";
 test('Check if the string is URL', () => {
-    expect(validURL('https://archive.jestjs.io/docs/en/').toBeTruthy())
+    expect(validURL('test test')).toBeFalsy()
 })
